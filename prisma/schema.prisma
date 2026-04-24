@@ -1,0 +1,89 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String        @id @default(uuid()) @db.Uuid
+  telegramUserId BigInt        @unique @map("telegram_user_id")
+  chatId         BigInt?       @map("chat_id")
+  username       String?
+  firstName      String?       @map("first_name")
+  lastName       String?       @map("last_name")
+  createdAt      DateTime      @default(now()) @map("created_at")
+  lastSeenAt     DateTime      @default(now()) @updatedAt @map("last_seen_at")
+  attempts       Attempt[]
+  sessions       QuizSession[]
+
+  @@map("users")
+}
+
+model Question {
+  id               String           @id
+  jurisdiction     String
+  licenseClass     String           @map("license_class")
+  category         String
+  questionEs       String           @map("question_es")
+  questionRu       String           @map("question_ru")
+  type             String
+  correctOptionIds Json             @map("correct_option_ids")
+  media            Json?
+  source           Json
+  status           String
+  createdAt        DateTime         @default(now()) @map("created_at")
+  updatedAt        DateTime         @updatedAt @map("updated_at")
+  attempts         Attempt[]
+  options          QuestionOption[]
+
+  @@map("questions")
+}
+
+model QuestionOption {
+  id         String   @id @default(uuid()) @db.Uuid
+  questionId String   @map("question_id")
+  optionId   String   @map("option_id")
+  textEs     String   @map("text_es")
+  textRu     String   @map("text_ru")
+  sortOrder  Int      @map("sort_order")
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, optionId])
+  @@map("question_options")
+}
+
+model QuizSession {
+  id          String    @id @default(uuid()) @db.Uuid
+  userId      String    @db.Uuid @map("user_id")
+  mode        String
+  status      String    @default("active")
+  questionIds Json      @map("question_ids")
+  currentIndex Int      @default(0) @map("current_index")
+  score       Int       @default(0)
+  total       Int
+  startedAt   DateTime  @default(now()) @map("started_at")
+  completedAt DateTime? @map("completed_at")
+  attempts    Attempt[]
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("quiz_sessions")
+}
+
+model Attempt {
+  id                String      @id @default(uuid()) @db.Uuid
+  userId            String      @db.Uuid @map("user_id")
+  sessionId         String      @db.Uuid @map("session_id")
+  questionId        String      @map("question_id")
+  selectedOptionIds Json        @map("selected_option_ids")
+  isCorrect         Boolean     @map("is_correct")
+  answeredAt        DateTime    @default(now()) @map("answered_at")
+  question          Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  session           QuizSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  user              User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([sessionId, questionId])
+  @@map("attempts")
+}

@@ -1,0 +1,17 @@
+{
+  "country": "AR",
+  "jurisdiction": "CABA",
+  "license_class": "B",
+  "questions_per_run": 40,
+  "selection": "random_sample_without_replacement",
+  "shuffle_questions": true,
+  "shuffle_options": true,
+  "pass_rule": {
+    "type": "percentage",
+    "threshold": 0.75,
+    "note": "Verificar contra reglas oficiales vigentes antes de producción.",
+    "note_ru": "Перед выкаткой в продакшн сверить с действующими официальными правилами."
+  },
+  "source_of_truth": "Material oficial de estudio de CABA y normativa vigente.",
+  "source_of_truth_ru": "Официальные учебные материалы CABA и действующая нормативная база."
+}

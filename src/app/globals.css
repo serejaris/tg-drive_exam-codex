@@ -1,0 +1,219 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light dark;
+  --background: var(--tg-theme-bg-color, #f4f7fb);
+  --surface: var(--tg-theme-secondary-bg-color, #ffffff);
+  --surface-strong: #eef4f8;
+  --text: var(--tg-theme-text-color, #12202f);
+  --muted: var(--tg-theme-hint-color, #667789);
+  --accent: var(--tg-theme-button-color, #2688eb);
+  --accent-text: var(--tg-theme-button-text-color, #ffffff);
+  --danger: #c2410c;
+  --success: #147d43;
+  --border: rgba(79, 98, 120, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+.app-shell {
+  width: min(100%, 720px);
+  min-height: 100dvh;
+  margin: 0 auto;
+  padding: max(16px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom));
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.brand {
+  display: grid;
+  gap: 2px;
+}
+
+.brand-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 750;
+}
+
+.brand-subtitle,
+.muted {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.panel {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 16px;
+}
+
+.stack {
+  display: grid;
+  gap: 12px;
+}
+
+.grid-actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.button {
+  width: 100%;
+  min-height: 48px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--accent);
+  color: var(--accent-text);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.button.secondary {
+  border: 1px solid var(--border);
+  background: var(--surface-strong);
+  color: var(--text);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.stat {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  background: var(--surface-strong);
+}
+
+.stat-value {
+  display: block;
+  font-size: 20px;
+  font-weight: 750;
+}
+
+.progress-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.media {
+  width: 100%;
+  max-height: 260px;
+  object-fit: contain;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.question-title {
+  display: grid;
+  gap: 8px;
+}
+
+.question-es {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 760;
+}
+
+.question-ru {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.option {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.option.selected {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.option.correct {
+  border-color: var(--success);
+}
+
+.option.wrong {
+  border-color: var(--danger);
+}
+
+.option-es {
+  display: block;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.option-ru {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.feedback {
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 700;
+}
+
+.feedback.good {
+  border: 1px solid rgba(20, 125, 67, 0.4);
+  color: var(--success);
+}
+
+.feedback.bad {
+  border: 1px solid rgba(194, 65, 12, 0.4);
+  color: var(--danger);
+}
+
+.error {
+  border: 1px solid rgba(194, 65, 12, 0.35);
+  border-radius: 8px;
+  padding: 12px;
+  color: var(--danger);
+}

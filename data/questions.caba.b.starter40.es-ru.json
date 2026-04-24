@@ -1,0 +1,1930 @@
+[
+  {
+    "id": "ar-caba-b-starter-001",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seniales",
+    "question": "¿Qué indica esta seña?",
+    "question_ru": "Что означает этот знак?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Adelantamiento por la derecha.",
+        "text_ru": "Обгон справа."
+      },
+      {
+        "id": "b",
+        "text": "Giro a la derecha.",
+        "text_ru": "Поворот направо."
+      },
+      {
+        "id": "c",
+        "text": "Detenerse.",
+        "text_ru": "Остановиться."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "seniales",
+      "maniobras"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b13.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-002",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "¿Son válidas este tipo de señas?",
+    "question_ru": "Допустимы ли такого рода сигналы (жесты рукой)?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Como acompañamiento al uso de balizas y/o en caso de emergencia.",
+        "text_ru": "В качестве дополнения к включённой аварийной сигнализации и/или в экстренной ситуации."
+      },
+      {
+        "id": "b",
+        "text": "Nunca.",
+        "text_ru": "Никогда."
+      },
+      {
+        "id": "c",
+        "text": "Sólo cuando se utilicen en calles.",
+        "text_ru": "Только при использовании на городских улицах."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "seniales",
+      "emergencia"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b173.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-003",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "En caso de participar en un siniestro vial, ¿qué es recomendable hacer como primer paso?",
+    "question_ru": "Если вы стали участником ДТП, что рекомендуется сделать в первую очередь?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Detenerse inmediatamente y permanecer en el lugar del hecho.",
+        "text_ru": "Немедленно остановиться и оставаться на месте происшествия."
+      },
+      {
+        "id": "b",
+        "text": "Conducir hasta la comisaría más cercana.",
+        "text_ru": "Доехать до ближайшего отделения полиции."
+      },
+      {
+        "id": "c",
+        "text": "Llamar al 911 y continuar el viaje.",
+        "text_ru": "Позвонить в 911 и продолжить движение."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "siniestro",
+      "responsabilidad"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-004",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seniales",
+    "question": "Determine qué indica la señal que a continuación se presenta:",
+    "question_ru": "Определите, что означает представленный ниже знак:",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cruce de jinetes.",
+        "text_ru": "Переход всадников."
+      },
+      {
+        "id": "b",
+        "text": "Prohibición de circular con animales.",
+        "text_ru": "Запрет движения с животными."
+      },
+      {
+        "id": "c",
+        "text": "Camino peligroso por presencia de animales sueltos.",
+        "text_ru": "Опасный участок из-за свободно передвигающихся животных."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "seniales"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b225.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-005",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "¿Cuál es la “distancia mínima de seguridad” a la que debe circular el vehículo A con respecto al B?",
+    "question_ru": "Какова «минимальная безопасная дистанция», которую автомобиль A должен соблюдать относительно автомобиля B?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "A una diferencia de dos segundos.",
+        "text_ru": "Интервал в две секунды."
+      },
+      {
+        "id": "b",
+        "text": "A una distancia de 2 metros.",
+        "text_ru": "Расстояние 2 метра."
+      },
+      {
+        "id": "c",
+        "text": "No existe una determinada. Sólo está prohibido circular inmediatamente detrás, sin dejar distancia.",
+        "text_ru": "Конкретная дистанция не установлена. Запрещено только двигаться вплотную сзади, не оставляя дистанции."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "distancia",
+      "frenado"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b144.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-006",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "Al conducir sobre una calzada en estas condiciones, la distancia de frenado será...",
+    "question_ru": "При движении по проезжей части в таких условиях тормозной путь будет…",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Igual que cuando la calzada se encuentra seca.",
+        "text_ru": "Таким же, как при сухой проезжей части."
+      },
+      {
+        "id": "b",
+        "text": "Menor que cuando la calzada se encuentra seca.",
+        "text_ru": "Меньше, чем при сухой проезжей части."
+      },
+      {
+        "id": "c",
+        "text": "Mayor que cuando la calzada se encuentra seca.",
+        "text_ru": "Больше, чем при сухой проезжей части."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "frenado",
+      "lluvia"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b185.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-007",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "documentacion",
+    "question": "Según la Ley N° 2148, ¿es obligatorio llevar un chaleco de material reflectivo?",
+    "question_ru": "Согласно закону № 2148, обязательно ли иметь при себе светоотражающий жилет?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "No es obligatorio pero es recomendable llevarlo por sí se necesita utilizarlo frente a algún desperfecto mecánico.",
+        "text_ru": "Не обязателен, но рекомендуется иметь при себе на случай механической неисправности."
+      },
+      {
+        "id": "b",
+        "text": "Sí, es obligatorio y puede ser llevado en cualquier parte del vehículo.",
+        "text_ru": "Да, обязателен и может находиться в любом месте автомобиля."
+      },
+      {
+        "id": "c",
+        "text": "Sí, es obligatorio y debe ser llevado dentro del habitáculo para poder utilizarlo en caso de necesitar descender a la calzada, frente a alguna causa de fuerza mayor.",
+        "text_ru": "Да, обязателен и должен находиться в салоне, чтобы его можно было использовать при необходимости выйти на проезжую часть в случае непредвиденных обстоятельств."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "equipo_obligatorio",
+      "seguridad"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-008",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seniales",
+    "question": "¿Qué indica el siguiente cruce verde en las intersecciones?",
+    "question_ru": "Что означает зелёная разметка на перекрёстках?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Advierte a los conductores sobre la existencia de un punto de cruce de ciclovía o bicisenda.",
+        "text_ru": "Предупреждает водителей о наличии пересечения с велодорожкой (ciclovía или bicisenda)."
+      },
+      {
+        "id": "b",
+        "text": "Advierte a los conductores sobre la existencia de un establecimiento escolar cercano.",
+        "text_ru": "Предупреждает водителей о наличии поблизости учебного заведения."
+      },
+      {
+        "id": "c",
+        "text": "Advierte a los conductores sobre un cruce peligroso por tener poca iluminación.",
+        "text_ru": "Предупреждает водителей об опасном перекрёстке из-за плохого освещения."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "ciclovia",
+      "intersecciones"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b39.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-009",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "prioridad_de_paso",
+    "question": "Como norma de carácter general, ¿quién tiene prioridad de paso en una encrucijada sin semáforos?",
+    "question_ru": "Как правило, кто имеет приоритет проезда на перекрёстке без светофоров?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Los vehículos de transporte de pasajero.",
+        "text_ru": "Транспортные средства для перевозки пассажиров."
+      },
+      {
+        "id": "b",
+        "text": "El vehículo de menor tamaño.",
+        "text_ru": "Автомобиль меньшего размера."
+      },
+      {
+        "id": "c",
+        "text": "El vehículo que se presenta por el lado derecho.",
+        "text_ru": "Автомобиль, приближающийся справа."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "prioridad",
+      "cruces"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-010",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "estacionamiento",
+    "question": "La Ley Nº 2148 establece como norma general que en avenidas de este tipo, está prohibido estacionar vehículos…",
+    "question_ru": "Закон № 2148 в качестве общего правила устанавливает, что на проспектах такого типа запрещено парковать автомобили…",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Junto a la acera izquierda los días hábiles durante las 24 horas.",
+        "text_ru": "У левого тротуара в рабочие дни круглосуточно."
+      },
+      {
+        "id": "b",
+        "text": "Junto a la acera izquierda los días hábiles entre las 7 y las 21 horas.",
+        "text_ru": "У левого тротуара в рабочие дни с 7 до 21 часов."
+      },
+      {
+        "id": "c",
+        "text": "Junto a la acera derecha los días hábiles entre las 7 y las 21 horas.",
+        "text_ru": "У правого тротуара в рабочие дни с 7 до 21 часов."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "estacionamiento",
+      "avenidas"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b157.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-011",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seniales",
+    "question": "¿Qué indica esta señal?",
+    "question_ru": "Что означает этот знак?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Prohibido estacionar por la existencia de un aeropuerto cercano.",
+        "text_ru": "Парковка запрещена из-за близости аэропорта."
+      },
+      {
+        "id": "b",
+        "text": "Vuelos a baja altura de aviones sobre la vía, por la proximidad de aeródromo o aeropuerto.",
+        "text_ru": "Низколетящие самолёты над дорогой из-за близости аэродрома или аэропорта."
+      },
+      {
+        "id": "c",
+        "text": "Prohibido estacionar y detenerse por la existencia de un aeropuerto cercano.",
+        "text_ru": "Остановка и стоянка запрещены из-за близости аэропорта."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "seniales"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b223.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-012",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "circulacion",
+    "question": "El vehículo, que circula por el carril destinado al tránsito lento, no puede abandonarlo para sobrepasar a otro vehículo que transita más lento.",
+    "question_ru": "Автомобиль, движущийся по полосе для медленного движения, не может покидать её для обгона другого автомобиля, движущегося ещё медленнее.",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Verdadero.",
+        "text_ru": "Верно."
+      },
+      {
+        "id": "b",
+        "text": "Falso.",
+        "text_ru": "Неверно."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "carriles",
+      "adelantamiento"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-013",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "Según la Ley Nº 2148, ¿es correcto que un niño de 11 años utilice un Sistema de Retención Infantil, en este asiento central?",
+    "question_ru": "Согласно закону № 2148, правильно ли, что ребёнок 11 лет использует детское удерживающее устройство на этом центральном сиденье?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sí, ya que por su edad debe utilizarlo y las características del cinturón de seguridad (3 puntos) permite ajustarlo correctamente.",
+        "text_ru": "Да, так как по возрасту он должен его использовать, и характеристики ремня безопасности (трёхточечный) позволяют его корректно закрепить."
+      },
+      {
+        "id": "b",
+        "text": "No, sólo puede utilizar el sistema de Retención Infantil en asientos laterales.",
+        "text_ru": "Нет, детское удерживающее устройство можно использовать только на боковых сиденьях."
+      },
+      {
+        "id": "c",
+        "text": "Es indistinto, ya que al tener más de 10 años no es obligatorio que utilice el Sistema de Retención Infantil.",
+        "text_ru": "Не имеет значения, поскольку в возрасте старше 10 лет использование детского удерживающего устройства не обязательно."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "sri",
+      "ninos"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b210.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-014",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "circulacion",
+    "question": "Al observar las luces de este vehículo, ¿qué significado tienen en cuanto al sentido de circulación?",
+    "question_ru": "Глядя на фары этого автомобиля, что они означают в отношении направления движения?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que está circulando en mí mismo sentido.",
+        "text_ru": "Что он движется в том же направлении, что и вы."
+      },
+      {
+        "id": "b",
+        "text": "Que está circulando en el sentido contrario al mío.",
+        "text_ru": "Что он движется во встречном направлении."
+      },
+      {
+        "id": "c",
+        "text": "No indican sentido de circulación sino que está descompuesto.",
+        "text_ru": "Они не указывают на направление движения, а говорят о неисправности."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "luces"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b175.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-015",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "estacionamiento",
+    "question": "Encender las balizas permite detenerse en doble fila por un lapso de tiempo, entre 2 y 5 minutos.",
+    "question_ru": "Включение аварийной сигнализации разрешает стоянку во втором ряду на промежуток от 2 до 5 минут.",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Verdadero.",
+        "text_ru": "Верно."
+      },
+      {
+        "id": "b",
+        "text": "Falso.",
+        "text_ru": "Неверно."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "balizas",
+      "doble_fila"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-016",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "circulacion",
+    "question": "Según la Ley Nº 24.449, en el caso de detener un vehículo en esta zona, ¿cuál es la distancia mínima que se debe mantener?",
+    "question_ru": "Согласно закону № 24.449, при остановке автомобиля в этой зоне, какую минимальную дистанцию нужно соблюдать?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 metros respecto de los rieles.",
+        "text_ru": "5 метров от рельсов."
+      },
+      {
+        "id": "b",
+        "text": "2 metros respecto de los rieles.",
+        "text_ru": "2 метра от рельсов."
+      },
+      {
+        "id": "c",
+        "text": "No existe una distancia mínima.",
+        "text_ru": "Минимальная дистанция не установлена."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "ferrocarril",
+      "detencion"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b164.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-017",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "Frente a la siguiente situación de emergencia, ¿qué deben hacer los conductores que circulen en su proximidad?",
+    "question_ru": "В этой экстренной ситуации что должны сделать водители, движущиеся поблизости?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aumentar la velocidad para no ser un obstáculo a este vehículo.",
+        "text_ru": "Увеличить скорость, чтобы не быть помехой этому автомобилю."
+      },
+      {
+        "id": "b",
+        "text": "Avisar a otros conductores de la presencia de este vehículo, usando repetidamente la bocina.",
+        "text_ru": "Предупредить других водителей о присутствии этого автомобиля, многократно используя клаксон."
+      },
+      {
+        "id": "c",
+        "text": "Dar lugar a este vehículo, despejar el carril de emergencias y si fuera necesario detenerse.",
+        "text_ru": "Уступить этому автомобилю, освободить полосу для экстренных служб и при необходимости остановиться."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "emergencia",
+      "vehiculos_especiales"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b93.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-018",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seniales",
+    "question": "Determine qué indica la señal que a continuación se presenta:",
+    "question_ru": "Определите, что означает представленный ниже знак:",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Túnel.",
+        "text_ru": "Туннель."
+      },
+      {
+        "id": "b",
+        "text": "Puente angosto.",
+        "text_ru": "Узкий мост."
+      },
+      {
+        "id": "c",
+        "text": "Altura mínima.",
+        "text_ru": "Минимальная высота."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "seniales"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b230.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-019",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "estacionamiento",
+    "question": "¿El vehículo de la imagen se encuentra en infracción?",
+    "question_ru": "Находится ли автомобиль на изображении в нарушении правил?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sí, salvo que el propietario del vehículo sea el mismo que el de la vivienda.",
+        "text_ru": "Да, за исключением случая, когда владелец автомобиля совпадает с владельцем жилища."
+      },
+      {
+        "id": "b",
+        "text": "No, ya que hay espacio suficiente para el paso del peatón.",
+        "text_ru": "Нет, так как места для прохода пешехода достаточно."
+      },
+      {
+        "id": "c",
+        "text": "Ambas respuestas, A y B, son incorrectas.",
+        "text_ru": "Оба ответа, A и B, неверны."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "rampa",
+      "vereda"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b148.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-020",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seniales",
+    "question": "En la imagen se muestra un cruce exclusivo para ciclistas.",
+    "question_ru": "На изображении показан переход только для велосипедистов.",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Verdadero.",
+        "text_ru": "Верно."
+      },
+      {
+        "id": "b",
+        "text": "Falso.",
+        "text_ru": "Неверно."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "ciclistas",
+      "cruce"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b38.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-021",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seniales",
+    "question": "¿Qué indican las señales reglamentarias?",
+    "question_ru": "Что обозначают предписывающие (reglamentarias) знаки?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Advierten la proximidad de una circunstancia o variación de la normalidad de la vía que puede resultar sorpresiva o peligrosa a la circulación.",
+        "text_ru": "Предупреждают о приближении обстоятельства или изменения на дороге, которое может быть неожиданным или опасным для движения."
+      },
+      {
+        "id": "b",
+        "text": "Identifican, orientan y hacen referencia a servicios, lugares, etc.",
+        "text_ru": "Идентифицируют, ориентируют и указывают на услуги, места и т. п."
+      },
+      {
+        "id": "c",
+        "text": "Transmiten órdenes específicas, de cumplimiento obligatorio en el lugar para el cual están destinadas.",
+        "text_ru": "Передают конкретные предписания, обязательные для исполнения в месте их установки."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "seniales",
+      "reglamentarias"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-022",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "Si los espejos retrovisores de su vehículo están bien orientados, igualmente es posible que se produzcan puntos ciegos cuando observe por los mismos.",
+    "question_ru": "Даже если зеркала заднего вида правильно настроены, при обзоре через них всё равно могут возникать слепые зоны.",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Verdadero.",
+        "text_ru": "Верно."
+      },
+      {
+        "id": "b",
+        "text": "Falso.",
+        "text_ru": "Неверно."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "espejos",
+      "puntos_ciegos"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-023",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "responsabilidad",
+    "question": "Frente a un incidente de tránsito, ¿puede transferirse la Responsabilidad Penal del conductor de un vehículo al dueño del mismo?",
+    "question_ru": "При дорожном инциденте, может ли уголовная ответственность водителя быть передана владельцу автомобиля?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "No, porque la responsabilidad penal es intransferible.",
+        "text_ru": "Нет, поскольку уголовная ответственность не передаётся."
+      },
+      {
+        "id": "b",
+        "text": "Sí. Además, del dueño también puede transferirse a la Compañía de Seguros.",
+        "text_ru": "Да. Более того, от владельца она может быть также передана страховой компании."
+      },
+      {
+        "id": "c",
+        "text": "Lo resolverá el Juez, en función de la gravedad del incidente y sus consecuencias.",
+        "text_ru": "Это решит судья в зависимости от тяжести инцидента и его последствий."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "penal",
+      "siniestro"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-024",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "documentacion",
+    "question": "¿Se puede manejar un vehículo con “cédula para autorizado a conducir” a nombre de otra persona?",
+    "question_ru": "Можно ли управлять автомобилем по «свидетельству на право вождения» (cédula), оформленному на другое лицо?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Siempre y cuando se encuentre vigente.",
+        "text_ru": "При условии, что оно действительно."
+      },
+      {
+        "id": "b",
+        "text": "Sólo si es un familiar directo o tiene una relación laboral.",
+        "text_ru": "Только если это прямой родственник или есть трудовые отношения."
+      },
+      {
+        "id": "c",
+        "text": "En ningún caso.",
+        "text_ru": "Ни в каком случае."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "cedula",
+      "documentacion"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-025",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "Consumir cerveza influye en la conducción de un vehículo, haciendo que el conductor reduzca su capacidad de reacción y aumentando el tiempo necesario para responder ante un estímulo.",
+    "question_ru": "Употребление пива влияет на управление автомобилем: снижает скорость реакции водителя и увеличивает время, необходимое для ответа на раздражитель.",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Verdadero.",
+        "text_ru": "Верно."
+      },
+      {
+        "id": "b",
+        "text": "Falso.",
+        "text_ru": "Неверно."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "alcohol"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-026",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "velocidades",
+    "question": "Según las normas generales, ¿cuál es la velocidad máxima que puede alcanzar un vehículo, al circular por ruta cuando atraviesa una zona urbana?",
+    "question_ru": "По общим нормам, какова максимальная скорость автомобиля при движении по трассе, проходящей через городскую зону?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "60 km/h.",
+        "text_ru": "60 км/ч."
+      },
+      {
+        "id": "b",
+        "text": "80 km/h.",
+        "text_ru": "80 км/ч."
+      },
+      {
+        "id": "c",
+        "text": "90 km/h.",
+        "text_ru": "90 км/ч."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "ruta",
+      "zona_urbana"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-027",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "documentacion",
+    "question": "La ubicación y posición de las placas de dominio del vehículo, ¿puede sufrir algún tipo de modificación?",
+    "question_ru": "Может ли расположение и позиция номерных знаков автомобиля подвергаться каким-либо изменениям?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sólo pueden, eventualmente, ampliarse para mejorar su visibilidad.",
+        "text_ru": "Допускается только при необходимости увеличить их для улучшения видимости."
+      },
+      {
+        "id": "b",
+        "text": "No, deben estar colocadas en el lugar y de forma reglamentaria.",
+        "text_ru": "Нет, они должны быть установлены в предусмотренном месте и предусмотренной форме."
+      },
+      {
+        "id": "c",
+        "text": "Sólo está prohibido modificar la placa de dominio trasera, no así la delantera.",
+        "text_ru": "Запрещено изменять только задний номерной знак, а передний — можно."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "patente",
+      "placas"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-028",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "estacionamiento",
+    "question": "Como norma general, ¿qué distancia debe dejarse libre cuando se va a estacionar frente a este tipo de instituciones?",
+    "question_ru": "Как правило, какое расстояние нужно оставить свободным при парковке напротив учреждений такого типа?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Todo el frente del edificio.",
+        "text_ru": "Весь фасад здания."
+      },
+      {
+        "id": "b",
+        "text": "10 metros de cada lado de la entrada.",
+        "text_ru": "10 метров с каждой стороны от входа."
+      },
+      {
+        "id": "c",
+        "text": "5 metros de cada lado de la entrada.",
+        "text_ru": "5 метров с каждой стороны от входа."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "instituciones",
+      "distancia"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b152.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-029",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seniales",
+    "question": "¿Qué indica esta señal reglamentaria?",
+    "question_ru": "Что означает этот предписывающий знак?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que no se puede circular a una velocidad inferior a 35 km/h en esa vía.",
+        "text_ru": "Что нельзя двигаться со скоростью ниже 35 км/ч на этой дороге."
+      },
+      {
+        "id": "b",
+        "text": "Que la velocidad máxima es de 35 km/h en esa vía.",
+        "text_ru": "Что максимальная скорость на этой дороге — 35 км/ч."
+      },
+      {
+        "id": "c",
+        "text": "Que la velocidad precautoria es de 35 km/h en esa vía.",
+        "text_ru": "Что рекомендуемая безопасная скорость на этой дороге — 35 км/ч."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "velocidad_minima",
+      "seniales"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b258.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-030",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "Según Ley N° 2148, ¿en qué plazas deben viajar los mayores de 12 años y con altura igual o superior a 1.50 mts.?",
+    "question_ru": "Согласно закону № 2148, на каких местах должны ехать пассажиры старше 12 лет с ростом 1,50 м и выше?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "En cualquier asiento pero siempre con el cinturón de seguridad debidamente sujeto.",
+        "text_ru": "На любом сиденье, но всегда с правильно пристёгнутым ремнём безопасности."
+      },
+      {
+        "id": "b",
+        "text": "Sólo en las plazas traseras con cinturón de seguridad debidamente sujeto.",
+        "text_ru": "Только на задних сиденьях с правильно пристёгнутым ремнём безопасности."
+      },
+      {
+        "id": "c",
+        "text": "Sólo en dispositivo de retención infantil correspondiente a peso y talla, debidamente homologado.",
+        "text_ru": "Только в детском удерживающем устройстве, соответствующем весу и росту и надлежащим образом сертифицированном."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "cinturon",
+      "ocupantes"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-031",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "prioridad_de_paso",
+    "question": "¿Cuándo se debe ceder el paso a los vehículos que desean incorporarse al tránsito desde el lugar donde estaban estacionados o desde un garaje?",
+    "question_ru": "Когда нужно уступать дорогу автомобилям, желающим включиться в движение с парковки или из гаража?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Siempre, independientemente de cómo se encuentre el tránsito vehicular.",
+        "text_ru": "Всегда, независимо от состояния дорожного движения."
+      },
+      {
+        "id": "b",
+        "text": "Cuando el tránsito se encuentra interrumpido por cualquier razón.",
+        "text_ru": "Когда движение остановлено по какой-либо причине."
+      },
+      {
+        "id": "c",
+        "text": "Nunca, independientemente de cómo se encuentre el tránsito vehicular.",
+        "text_ru": "Никогда, независимо от состояния дорожного движения."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "incorporacion",
+      "garaje"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-032",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "velocidades",
+    "question": "¿Cuál es la velocidad máxima permitida para un automóvil particular en este tramo de la avenida?",
+    "question_ru": "Какова максимальная допустимая скорость для частного автомобиля на этом участке проспекта?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "60 km/h.",
+        "text_ru": "60 км/ч."
+      },
+      {
+        "id": "b",
+        "text": "50 km/h.",
+        "text_ru": "50 км/ч."
+      },
+      {
+        "id": "c",
+        "text": "40 km/h.",
+        "text_ru": "40 км/ч."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "avenida",
+      "velocidad"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b133.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-033",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "El estrés no necesariamente puede alterar las capacidades para conducir de manera segura.",
+    "question_ru": "Стресс не обязательно влияет на способность безопасно управлять автомобилем.",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Verdadero.",
+        "text_ru": "Верно."
+      },
+      {
+        "id": "b",
+        "text": "Falso.",
+        "text_ru": "Неверно."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "factor_humano",
+      "estres"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-034",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seniales",
+    "question": "¿Cuál de la tres señales indica que la ruta es provincial?",
+    "question_ru": "Какой из трёх знаков указывает, что трасса является провинциальной?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "La señal A.",
+        "text_ru": "Знак A."
+      },
+      {
+        "id": "b",
+        "text": "La señal B.",
+        "text_ru": "Знак B."
+      },
+      {
+        "id": "c",
+        "text": "La señal C.",
+        "text_ru": "Знак C."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "rutas",
+      "orientacion"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b273.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-035",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "¿A qué se denomina conducción preventiva?",
+    "question_ru": "Что называется превентивным (безопасным) вождением?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "A controlar el buen funcionamiento del vehículo, los niveles de combustible, aceite e inflado de neumáticos.",
+        "text_ru": "Контроль исправности автомобиля, уровня топлива, масла и давления в шинах."
+      },
+      {
+        "id": "b",
+        "text": "A adoptar conductas cautelosas al conducir, que consideran la responsabilidad por los actos que se llevan a cabo y a anticipar la conducta de los demás.",
+        "text_ru": "Применение осторожного поведения за рулём: ответственности за свои действия и прогнозирования поведения других участников."
+      },
+      {
+        "id": "c",
+        "text": "A realizar cursos viales cada seis meses.",
+        "text_ru": "Прохождение курсов по безопасности дорожного движения каждые полгода."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "conduccion_preventiva"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-036",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "seguridad",
+    "question": "Si usted pretende cruzar esta intersección, ¿hacia qué lado debe mirar?",
+    "question_ru": "Если вы собираетесь проехать этот перекрёсток, в какую сторону нужно смотреть?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hacia la derecha.",
+        "text_ru": "Вправо."
+      },
+      {
+        "id": "b",
+        "text": "Hacia la izquierda.",
+        "text_ru": "Влево."
+      },
+      {
+        "id": "c",
+        "text": "Hacia ambos lados.",
+        "text_ru": "В обе стороны."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "interseccion",
+      "observacion"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b15.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-037",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "circulacion",
+    "question": "¿Cuál es la principal diferencia entre bicisendas y ciclovías?",
+    "question_ru": "В чём основное различие между bicisenda и ciclovía?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "La bicisenda es de uso exclusivo de bicicletas y la ciclovía de uso preferencial.",
+        "text_ru": "Bicisenda — только для велосипедистов, а ciclovía — преимущественно для велосипедистов."
+      },
+      {
+        "id": "b",
+        "text": "La bicisenda se encuentra sobre la calzada y la ciclovía sobre la vereda.",
+        "text_ru": "Bicisenda расположена на проезжей части, а ciclovía — на тротуаре."
+      },
+      {
+        "id": "c",
+        "text": "La bicisenda se encuentra sobre la vereda y la ciclovía sobre la calzada.",
+        "text_ru": "Bicisenda расположена на тротуаре, а ciclovía — на проезжей части."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "bicisenda",
+      "ciclovia"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-038",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "prioridad_de_paso",
+    "question": "Si ud. necesita atravesar con su vehículo una vereda para ingresar o egresar de un garaje, ¿qué conducta debe adoptar?",
+    "question_ru": "Если нужно пересечь на автомобиле тротуар для въезда в гараж или выезда из него, как вы должны себя вести?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Priorizar la circulación del peatón, indefectiblemente.",
+        "text_ru": "Безусловно отдавать приоритет пешеходам."
+      },
+      {
+        "id": "b",
+        "text": "Realizar una guiñada para advertir su preferencia de avance.",
+        "text_ru": "Мигнуть фарами, чтобы предупредить о своём приоритете проезда."
+      },
+      {
+        "id": "c",
+        "text": "Completar la maniobra como sea posible, para disminuir su tiempo de permanencia sobre la vereda.",
+        "text_ru": "Завершить манёвр как можно быстрее, чтобы сократить время нахождения на тротуаре."
+      }
+    ],
+    "correct_option_ids": [
+      "a"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "peaton",
+      "garaje"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source1.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source1.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами.",
+    "media": {
+      "type": "image_url",
+      "url": "https://www.testdeconducir.com.ar/images/preguntas/b22.jpg"
+    }
+  },
+  {
+    "id": "ar-caba-b-starter-039",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "circulacion",
+    "question": "¿Qué es un carril de circulación vehicular?",
+    "question_ru": "Что такое полоса движения транспортных средств?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "Banquina de la izquierda.",
+        "text_ru": "Левая обочина."
+      },
+      {
+        "id": "b",
+        "text": "Banquina de la derecha.",
+        "text_ru": "Правая обочина."
+      },
+      {
+        "id": "c",
+        "text": "Franja de la calzada por donde circulan los vehículos en una fila.",
+        "text_ru": "Полоса проезжей части, по которой автомобили движутся в один ряд."
+      }
+    ],
+    "correct_option_ids": [
+      "c"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "carril",
+      "definiciones"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source2.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source2.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  },
+  {
+    "id": "ar-caba-b-starter-040",
+    "country": "AR",
+    "jurisdiction": "CABA",
+    "license_classes": [
+      "B"
+    ],
+    "category": "velocidades",
+    "question": "¿Cuál es la velocidad máxima permitida en avenidas, salvo señalización que indique lo contrario?",
+    "question_ru": "Какова максимальная допустимая скорость на проспектах, если иное не указано знаками?",
+    "type": "single_choice",
+    "options": [
+      {
+        "id": "a",
+        "text": "80 km/h.",
+        "text_ru": "80 км/ч."
+      },
+      {
+        "id": "b",
+        "text": "60 km/h.",
+        "text_ru": "60 км/ч."
+      },
+      {
+        "id": "c",
+        "text": "40 km/h.",
+        "text_ru": "40 км/ч."
+      }
+    ],
+    "correct_option_ids": [
+      "b"
+    ],
+    "eliminatory": false,
+    "tags": [
+      "avenidas",
+      "velocidad"
+    ],
+    "source": {
+      "title": "bandinopla/simulador-test-de-conducir – source2.ts",
+      "url": "https://raw.githubusercontent.com/bandinopla/simulador-test-de-conducir/refs/heads/main/src/data/source2.ts",
+      "page": null,
+      "original_question_no": null,
+      "retrieved_at": "2026-04-24"
+    },
+    "status": "manual_review_required",
+    "notes": "Pregunta tomada de un simulador público para CABA; validar contra material oficial.",
+    "notes_ru": "Вопрос взят из публичного симулятора для CABA; необходима сверка с официальными материалами."
+  }
+]
